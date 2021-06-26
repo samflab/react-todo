@@ -1,0 +1,110 @@
+:root {
+  --VeryDarkBlue: hsl(235, 24%, 19%);
+  --LightGrayishBlue: hsl(234, 39%, 85%);
+  --LightGrayishBlue: hsl(236, 33%, 92%);
+  --DarkGrayishBlue: hsl(234, 11%, 52%);
+  --VeryDarkGrayishBlue: hsl(233, 14%, 35%);
+  --VeryDarkGrayishBlue: hsl(237, 14%, 26%);
+}
+
+button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  color: var(--VeryDarkGrayishBlue);
+  font-size: 1.5rem;
+}
+
+form {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+input {
+  border: none;
+  height: 5vh;
+  width: 100%;
+  font-size: 18px;
+  background-color: var(--VeryDarkBlue);
+  color: var(--LightGrayishBlue);
+  padding: 2vh 5vw 2vh 5vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-shadow: var(--VeryDarkBlue) 5px 1px 7px 2px;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+/* todolist black box below textfield */
+.todo-list {
+  background-color: var(--VeryDarkBlue);
+  color: var(--LightGrayishBlue);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  box-shadow: var(--VeryDarkBlue) 5px 1px 7px 2px;
+}
+h2{
+  letter-spacing: 5px;
+  color: white;
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: 900;
+}
+.todo{
+  max-width: 600px;
+  padding: 0 50px;
+
+}
+.main {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 0 50px;
+}
+
+.signInButton{
+  color: white;
+  margin: 3rem auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+.cross-button {
+  float: right;
+}
+.one-entry {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: var(--VeryDarkGrayishBlue) 1px solid;
+  padding: 15px 10px 10px 10px;
+  font-size: 18px;
+}
+.todo-item-list {
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 80%;
+  margin-left: 2vw;
+}
+
+.complete {
+  text-decoration: line-through;
+  color: var(--DarkGrayishBlue) ;
+}
+
+.deletex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.todo :last-child {
+  margin-left: 2rem;
+}

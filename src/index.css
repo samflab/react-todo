@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background-color: hsl(235, 21%, 11%);
+  background-image: url("bg-dark.jpg");
+  height: 35vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
